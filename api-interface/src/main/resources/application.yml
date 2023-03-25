@@ -1,0 +1,9 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+light:
+  client:
+    access-key: light
+    secret-key: abcdefg
+
