@@ -1,7 +1,8 @@
 package com.light.project.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.light.project.model.entity.Post;
+import com.light.apicommon.model.entity.Post;
+
 
 /**
 * @author yupili

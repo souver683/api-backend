@@ -2,7 +2,7 @@ package com.light.project.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.light.project.model.entity.InterfaceInfo;
+import com.light.apicommon.model.entity.InterfaceInfo;
 
 /**
 * @author 86550

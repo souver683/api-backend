@@ -2,6 +2,9 @@ package com.light.project.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.light.apicommon.model.entity.User;
+import com.light.apicommon.model.entity.UserInterfaceInfo;
+
 import com.light.project.annotation.AuthCheck;
 import com.light.project.common.*;
 import com.light.project.constant.CommonConstant;
@@ -9,8 +12,6 @@ import com.light.project.exception.BusinessException;
 import com.light.project.model.dto.userInterfaceInfo.UserInterfaceInfoAddRequest;
 import com.light.project.model.dto.userInterfaceInfo.UserInterfaceInfoQueryRequest;
 import com.light.project.model.dto.userInterfaceInfo.UserInterfaceInfoUpdateRequest;
-import com.light.project.model.entity.UserInterfaceInfo;
-import com.light.project.model.entity.User;
 import com.light.project.service.UserInterfaceInfoService;
 import com.light.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;

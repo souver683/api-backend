@@ -1,15 +1,11 @@
 package com.light.project.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.light.apicommon.model.entity.InterfaceInfo;
 import com.light.project.common.ErrorCode;
 import com.light.project.exception.BusinessException;
-import com.light.project.model.entity.Post;
-import com.light.project.model.enums.PostGenderEnum;
-import com.light.project.model.enums.PostReviewStatusEnum;
 import com.light.project.service.InterfaceInfoService;
-import com.light.project.model.entity.InterfaceInfo;
 import com.light.project.mapper.InterfaceInfoMapper;
-import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
 package com.light.project.service;
 
-import com.light.project.model.entity.User;
+import com.light.apicommon.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,6 +14,7 @@ import javax.annotation.Resource;
  */
 @SpringBootTest
 class UserServiceTest {
+
 
     @Resource
     private UserService userService;

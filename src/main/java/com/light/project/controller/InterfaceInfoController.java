@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.gson.Gson;
 import com.light.apiclientsdk.client.ApiClient;
+import com.light.apicommon.model.entity.InterfaceInfo;
+import com.light.apicommon.model.entity.User;
 import com.light.project.annotation.AuthCheck;
 import com.light.project.common.*;
 import com.light.project.constant.CommonConstant;
@@ -12,8 +14,6 @@ import com.light.project.model.dto.interfaceInfo.InterfaceInfoAddRequest;
 import com.light.project.model.dto.interfaceInfo.InterfaceInfoInvokeRequest;
 import com.light.project.model.dto.interfaceInfo.InterfaceInfoQueryRequest;
 import com.light.project.model.dto.interfaceInfo.InterfaceInfoUpdateRequest;
-import com.light.project.model.entity.InterfaceInfo;
-import com.light.project.model.entity.User;
 import com.light.project.service.InterfaceInfoService;
 import com.light.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -25,8 +25,8 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-import static com.light.project.model.enums.InterfaceInfoStatusEnum.OFFLINE;
-import static com.light.project.model.enums.InterfaceInfoStatusEnum.ONLINE;
+import static com.light.apicommon.model.enums.InterfaceInfoStatusEnum.OFFLINE;
+import static com.light.apicommon.model.enums.InterfaceInfoStatusEnum.ONLINE;
 
 /**
  * 帖子接口

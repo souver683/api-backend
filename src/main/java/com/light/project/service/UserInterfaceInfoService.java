@@ -1,7 +1,6 @@
 package com.light.project.service;
 
-import com.light.project.model.entity.InterfaceInfo;
-import com.light.project.model.entity.UserInterfaceInfo;
+import com.light.apicommon.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -12,5 +11,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface UserInterfaceInfoService extends IService<UserInterfaceInfo> {
     void validUserInterfaceInfo(UserInterfaceInfo userInterfaceInfo, boolean add);
     boolean
-    invoke(long interfaceInfoId,long userId);
+    invokeCount(long interfaceInfoId,long userId);
 }

@@ -1,8 +1,9 @@
 package com.light.project.service;
 
 
+
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.light.project.model.entity.User;
+import com.light.apicommon.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 

@@ -1,7 +1,7 @@
 package com.light.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.light.project.model.entity.Post;
+import com.light.apicommon.model.entity.Post;
 
 /**
  * @author yupili

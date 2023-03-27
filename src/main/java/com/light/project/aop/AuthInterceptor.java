@@ -1,10 +1,10 @@
 package com.light.project.aop;
 
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
+import com.light.apicommon.model.entity.User;
 import com.light.project.annotation.AuthCheck;
 import com.light.project.common.ErrorCode;
 import com.light.project.exception.BusinessException;
-import com.light.project.model.entity.User;
 import com.light.project.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
